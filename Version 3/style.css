@@ -1,0 +1,98 @@
+/* .test{
+    background-color: cadetblue;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid blue;
+} */
+body {
+    padding: 30px;
+    background-color: rgb(191, 211, 229);
+}
+.container {
+    background-color: rgb(143, 143, 235);
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.main-element {
+    background-color: white;
+    border: 2px solid rgb(104, 100, 100);
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-size: 32px;
+    align-items: center;
+}
+#message {
+    min-height: 2rem;
+    color: white;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 30vw;
+    /* background-color: aliceblue; */
+    justify-content: space-evenly;
+    border-bottom: 2px solid darkmagenta;
+    padding-top: 20px;
+    padding-bottom:22px;
+    margin-bottom: 10px;
+    
+}
+input {
+    margin: auto;
+    width: 22vw;
+    height: 22%;
+    text-align: center;
+    font-size: 2vw;  
+    font-weight: bolder;
+    margin-bottom: 20px;
+  
+}
+
+button {
+    background-color: rgb(175, 190, 217);
+    color: black;
+    border: 2px solid darkmagenta;
+    border-radius: 15px;
+    width: 24vw;
+    height: 24%;
+    /* padding: 10px; */
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 2vw;  
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+button:hover {
+    background-color: rgb(222, 222, 222);
+    color:red;
+    border: 2px solid red;
+}
+#reset-button:hover {
+    background-color:red;
+    color:white;
+    border: 2px solid white;
+}
+.alternate-border-color1 {
+    border-left :2px solid red;
+    border-right :2px solid red;
+}
+.alternate-border-color2 {
+    border-top :2px solid red;
+    border-bottom :2px solid red;
+}
+
+

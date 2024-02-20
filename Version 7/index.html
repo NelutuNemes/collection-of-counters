@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Version 7</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="info">
+      <h1>Project Description:</h1>
+      <h3>The approach of the project is: export / import function method</h3>
+    </div>
+
+    <div class="container">
+      <div class="main-element" id="main-element">
+        <h1 id="result-element">0</h1>
+      </div>
+      <br />
+
+      <div class="my-buttons">
+        <button id="start-button">Start counter</button>
+        <button id="reset-button">Reset counter</button>
+      </div>
+    </div>
+
+    <!-- must be added 'type = "module"',
+  for the export/import to work -->
+    <script type="module" src="script.js"></script>
+    <script type="module" src="util.js"></script>
+  </body>
+</html>

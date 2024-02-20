@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Version 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="title-div">
+      <div id="text">
+        <h4>Project Description:</h4>
+        <h5>
+          Approach involving the use of the 'shift' method in conjunction with
+          the 'setInterval' function.
+        </h5>
+      </div>
+      <div id="img-message-div">
+        <h2 id="img-div"></h2>
+        <h2>
+          <img
+            id="gif-img"
+            src="https://media.giphy.com/media/tXL4FHPSnVJ0A/giphy.gif"
+            alt="Time-Gif" />
+        </h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="main-element">
+        <h1 id="result-element">0</h1>
+      </div>
+      <br />
+
+      <form id="my-form">
+        <p class="fake-label">Choose a preset timer</p>
+
+        <div id="preset-selectors">
+          <button type="button" class="preset-button" id="preset-10" value="10">
+            10 sec
+          </button>
+          <button type="button" class="preset-button" id="preset-30" value="30">
+            30 sec
+          </button>
+          <button type="button" class="preset-button" id="preset-60" value="60">
+            60 sec
+          </button>
+          <button
+            type="button"
+            class="preset-button"
+            id="preset-180"
+            value="180">
+            3 min
+          </button>
+          <button
+            type="button"
+            class="preset-button"
+            id="preset-300"
+            value="300">
+            5 min
+          </button>
+        </div>
+
+        <label for="userValue">or, enter your own value below in seconds</label>
+        <input
+          type="number"
+          id="userValue"
+          name="inputValue"
+          placeholder="Insert here your own value " />
+        <button type="button" id="start-count-button">Start count</button>
+        <button type="button" id="reset-button">Reset</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

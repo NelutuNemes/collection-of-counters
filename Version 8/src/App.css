@@ -1,0 +1,168 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+  padding: 9px;
+
+}
+
+
+.logo {
+  height: 3em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+#title-and-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+#inherit-logo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+#container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background: radial-gradient(#05010b,#7b57a0 );
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 1.1);
+
+
+}
+
+
+#title {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  margin-bottom: 10px;
+  background: radial-gradient(white ,lightgrey );
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1.1);
+
+  color: white;
+}
+#subtitle1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  background: linear-gradient(40deg, #ea00ff, #0353ff);
+  -webkit-background-clip: text; /* Added for background clip support on WebKit browser (Chrome, Safari) */
+  background-clip: text;
+  color: transparent; /* Text is made transparent to allow the gradient effect to be visible in the background */
+}
+
+
+#subtitle2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 1vh;
+  background: linear-gradient(40deg,#03d5ff, #ea00ff);
+  -webkit-background-clip: text; 
+  /* Added for background clip support on WebKit browser (Chrome, Safari) */
+  background-clip: text;
+  color: transparent; 
+  /* Text is made transparent to allow the gradient effect to be visible in the background */
+
+}
+
+#items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 100vw;
+  padding: 1rem;
+  max-width: 900px;
+
+}
+#items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 50vw;border-radius: 10px;
+  max-width: 900px;
+  background: radial-gradient(white ,lightgrey );
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+
+
+}
+
+#start-button,
+ #reset-button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-weight: bolder;
+  margin: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+
+
+}
+
+
+#start-button:hover {
+  background-color: rgb(156, 144, 144);
+  color: greenyellow;
+  border: 2px solid greenyellow;
+  font-weight: bolder;
+}
+#reset-button:hover {
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  font-weight: bolder;
+}
+
+#results {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+
+}
+
+h1 {
+  background-color: white;
+  padding: 1rem;
+  width: 10vw;
+  text-align: center;
+  border-radius: 5px;
+}

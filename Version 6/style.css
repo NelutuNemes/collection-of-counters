@@ -1,0 +1,137 @@
+body {
+  background-color: #eee;
+}
+#title-div {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 23rem;
+}
+#text {
+  margin-left: 0;
+}
+#img-message-div {
+  height: 10rem;
+  width: 25rem;
+}
+h2 #gif-img {
+  height: 5rem;
+  width: 8rem;
+
+}
+
+.container {
+  box-sizing: border-box;
+  background-color: #eee;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  width: 22rem;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.main-element {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  width: 5rem;
+  height: 4rem;
+  margin-top: 5px;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  align-items: center;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: auto;
+  background-color: #eee;
+  justify-content: space-evenly;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  padding-top: 10px;
+  padding-bottom: 22px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+input {
+  margin: auto;
+  width: 15rem;
+  border-radius: 15px;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.6rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  border: 2px solid darkgrey;
+  margin-top: 15px;
+}
+
+button {
+  background-color: #eee;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  width: 9rem;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+button:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
+#reset-button:hover {
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+}
+
+#preset-selectors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.preset-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 1rem;
+}
+.fake-label,
+label {
+  text-align: center;
+  color: rgb(82, 75, 75);
+  margin-top: 10px;
+}
+
+.mark-element {
+  border: 2px solid red;
+  color: red;
+  background-color: white;
+}
+
+#gif-img {
+  width: 30vw;
+  height: 15vw;
+  margin-top: 1vh;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  border-radius: 7px;
+}
