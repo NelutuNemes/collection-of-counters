@@ -4,15 +4,15 @@ This repository showcases diverse implementations of counters in HTML, CSS,  Jav
 
 Each counter variant is organized in a separate folder:
 
-Version 1 - Counter
-Version 2 - Counter
-Version 3 - Counter
-Version 4 - Counter
-Version 5 - Counter
-Version 6 - Counter
-Version 7 - Counter
-Version 8 - Counter
-Version 9 - Counter
+- [Version 1 - Counter](https://github.com/NelutuNemes/collection-of-counters/blob/main/Version%201/README.md)
+- [Version 2 - Counter](https://github.com/NelutuNemes/collection-of-counters/blob/main/Version%202/README.md)
+- [Version 3 - Counter](https://github.com/NelutuNemes/collection-of-counters/blob/main/Version%203/README.md)
+- [Version 4 - Counter](https://github.com/NelutuNemes/collection-of-counters/blob/main/Version%204/README.md)
+- [Version 5 - Counter](https://github.com/NelutuNemes/collection-of-counters/blob/main/Version%205/README.md)
+- [Version 6 - Counter](https://github.com/NelutuNemes/collection-of-counters/blob/main/Version%206/README.md)
+- [Version 7 - Counter](https://github.com/NelutuNemes/collection-of-counters/blob/main/Version%207/README.md)
+- [Version 8 - Counter (React)](https://github.com/NelutuNemes/collection-of-counters/blob/main/Version%208/README.md)
+- [Version 9 - Counter](https://github.com/NelutuNemes/collection-of-counters/blob/main/Version%209/README.md)
 
 # How to Use
 Open the index.html file from each counter version in a web browser, except for Version 8..
